@@ -79,6 +79,38 @@ export const testimonial = [
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ]
+
+export const testimonial2 = [
+  {
+    id: 1,
+    name: "Innovation Accounting",
+    // cover: "../images/e1.jpg",
+    // post: "Seven consulting - CEO",
+    desc: "Track and report progress with precision.",
+  },
+  {
+    id: 2,
+    name: "Explore",
+    // cover: "../images/e2.jpg",
+    // post: "Seven Arts - marketing manager",
+    desc: "Identify and incubate new opportunities through idea management, hackathons, and accelerated programs. Use LEGO SeriousPlay to visualize and understand complex problems, fostering creative and collaborative solutions.",
+  },
+  {
+    id: 3,
+    name: "Exploit",
+    // cover: "../images/e3.jpg",
+    // post: "Seven consulting - CEO",
+    desc: "Maximize ROI with robust management practices, continuous improvement, and effective partner collaboration. Apply Kickbox Innovation principles to ensure that ideas are rapidly prototyped, tested, and scaled efficiently.",
+  },
+  {
+    id: 4,
+    name: "Open Innovation",
+    // cover: "../images/e4.jpg",
+    // post: "Seven Arts - marketing manager",
+    desc: "Leverage your ecosystem through dynamic collaborations and open idea exchanges. Integrate both LEGO SeriousPlay for team-building and ideation, and Kickbox for structured innovation processes.",
+  },
+]
+
 export const showcase = [
   {
     id: 1,
@@ -146,32 +178,32 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
-    cover: "/assets/images/b1.webp",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    title: "Unleashing Creativity in Business Strategy with LEGO® SERIOUS PLAY®",
+    cover: "/assets/images/serious_play.png",
+    catgeory: "STRATEGY",
+    date: "APRIL 21, 2024",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "/assets/images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
+    title: "Spark Innovation with the KICKBOX Methodology",
+    cover: "/assets/images/adobe_KB.png",
+    catgeory: "STRATEGY",
+    date: "APRIL 21, 2024",
   },
-  {
-    id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "/assets/images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-  },
-  {
-    id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "/assets/images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
-  },
+  // {
+  //   id: 3,
+  //   title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+  //   cover: "/assets/images/b3.jpg",
+  //   catgeory: "TIPS & TRICKS",
+  //   date: "OCTOBER 9, 2023",
+  // },
+  // {
+  //   id: 4,
+  //   title: "What eleifend posuere tincidunt",
+  //   cover: "/assets/images/b4.jpg",
+  //   catgeory: "EVENTS",
+  //   date: "OCTOBER 8, 2023",
+  // },
 ]
 export const teamdata = [
   {
@@ -276,26 +308,30 @@ export const card_data = [
 
 export const faq_data = [
   {
-    question: 'Why should I work with rready',
-    answer: 'We are a passionate team of innovation experts and have succeeded in launching innovation programs in several large organizations such as Swisscom, Roche, and Implenia.'
+    question: 'What is Capital Growth Academy',
+    answer: "Capital Growth Academy is an educational platform that focuses on teaching business innovation using a combination of standard and creative principles. We offer courses and workshops designed to help both new and existing businesses adapt and thrive in today's dynamic marketplace"
   },
   {
-    question: 'What are the advantages ofyour program',
-    answer: <div>
-      <Text
-      text = '1. They are easy to implement.'
-      />
-      <Text
-      text = '2. Our programs are scalable'
-      />
-    </div>
+    question: "Who can benefit from Capital Growth Academy's courses",
+    answer: 'Our courses are designed to cater to a wide range of individuals, from budding entrepreneurs looking to launch their first venture to established business owners seeking to innovate and revitalize their operations.'
   },
   {
-    question: 'Are you innovation consultants',
-    answer: 'Our methods differ considerably from your standard innovation consultants and are much broader. We start an innovation movement in your company that creates its own momentum, making innovation consultants superfluous and creating long-term change.'
+    question: 'What topics do your courses cover',
+    answer: 'Our curriculum includes topics such as market research, ideation, product development, marketing strategies, and more. We aim to provide a comprehensive learning experience that addresses the essential aspects of business innovation.'
   },
   {
-    question: 'We already have an innovation program. Is that a problem',
+    question: 'Who are the instructors at Capital Growth Academy',
     answer:'Not at all. Our programs are built on whatever your company already has implemented. Since our methods are decentralized and bottom-up, they complement any top-down programs you may already have.'
   }
+]
+
+export const link = [
+  {
+    title: 'KICKBOX',
+    link: '/solutions/kickbox'
+  },
+  {
+    title: 'LEGO® SERIOUS PLAY®',
+    link: '/solutions/lsp'
+  },
 ]

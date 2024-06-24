@@ -8,7 +8,9 @@ const Expertise = () => {
     <>
       <section className='sass-container bg-[#0000002b;] mb-20 py-8 '>
         <div className=''>
-          ggg
+          <div>
+            
+          </div>
         </div>
       </section>
     </>

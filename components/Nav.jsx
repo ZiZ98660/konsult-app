@@ -3,15 +3,31 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
 import "@/styles/globals.css";
+import DropDown from "./DropDown/page";
+import { FaCaretDown } from "react-icons/fa";
 
 
 const Nav = () => {
   const [activeLink, setActiveLink] = useState("")
   const [open, setOpen] = useState(false)
+
+  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+	// const { isLoggedin, toggleSideBar } = useBuffStore();
+
+	const openDropDown = () => {
+		setIsDropdownOpen(true);
+	};
+	const toggleDropDown = () => {
+		setIsDropdownOpen(!isDropdownOpen);
+	};
+
+	const closeDropDown = () => {
+		setIsDropdownOpen(false);
+	};
 
   const router = useRouter()
   useEffect(() => {
@@ -32,18 +48,31 @@ const Nav = () => {
             // className="max-[800px]:hidden"
             className="flex justify-center"
             >
-            <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
+            {/* <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
               Solutions
-            </Link>
-            <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
+            </Link> */}
+            <Link href='/about-us' className={activeLink == "/about-us" ? "activeLink" : "none"}>
               About us
             </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
+            <div
+            onClick={toggleDropDown}
+            onMouseEnter={openDropDown}
+            // onMouseLeave={closeDropDown}
+            className={`${activeLink == "/services" ? "activeLink" : "none"} cursor-pointer flex gap-x-2`}>
+              Solutions
+              <FaCaretDown/>
+            </div>
+            <DropDown
+            isOpen={isDropdownOpen}
+            onClose={closeDropDown}
+            />
+            {/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Resources
-            </Link>
-            {/* <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
-              Services
             </Link> */}
+            <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"} >
+              Services
+              
+            </Link>
             {/* <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
               Showcase
             </Link> */}
@@ -55,7 +84,7 @@ const Nav = () => {
             </Link> */}
             </div>
           </nav>
-            <button className='button-primary  max-[1300px]:place-self-center max-[1300px]:w-[50%]  '>get started today</button>
+            <button className='button-primary  max-[1300px]:place-self-center max-[1300px]:w-[50%]  '>contact us</button>
           <button className=" invisible max-[800px]:block" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
       </header>

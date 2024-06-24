@@ -12,49 +12,49 @@ import Image from "next/image"
 import Text from "./Text"
 import { TestimonialCard } from "./Card"
 
-// function SampleNextArrow(props) {
-//   const { onClick } = props
-//   return (
-//     <div className='slick-arrow'>
-//       <button className='next !bg-green-300' onClick={onClick}>
-//         <RiArrowRightSLine size={25} />
-//       </button>
-//     </div>
-//   )
-// }
+function SampleNextArrow(props) {
+  const { onClick } = props
+  return (
+    <div className='slick-arrow'>
+      <button className='next !bg-green-300' onClick={onClick}>
+        <RiArrowRightSLine size={25} />
+      </button>
+    </div>
+  )
+}
 
-// function SamplePrevArrow(props) {
-//   const { onClick } = props
-//   return (
-//     <div className='slick-arrow'>
-//       <button className='prev !bg-green-300' onClick={onClick}>
-//         <RiArrowLeftSLine size={25} />
-//       </button>
-//     </div>
-//   )
-// }
+function SamplePrevArrow(props) {
+  const { onClick } = props
+  return (
+    <div className='slick-arrow'>
+      <button className='prev !bg-green-300' onClick={onClick}>
+        <RiArrowLeftSLine size={25} />
+      </button>
+    </div>
+  )
+}
 
 const Testimonial = () => {
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   nextArrow: <SampleNextArrow />,
-  //   prevArrow: <SamplePrevArrow />,
-  //   responsive: [
-  //     {
-  //       breakpoint: 800,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //         dots: true,
-  //       },
-  //     },
-  //   ],
-  // }
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  }
   return (
     <>
       <section className=' sass-container mt-10 mb-16 '>

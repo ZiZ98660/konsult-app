@@ -15,12 +15,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
     <body>
+      <div
+      className=" grid w-full "
+      >
           <Nav />
           <main>
           {children}
           </main>
           <Footer/>
-     
+          </div>
     </body>
   </html>
   );

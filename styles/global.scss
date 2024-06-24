@@ -82,11 +82,14 @@
 
 //testimonial
 .testimonial {
+  width: 85%;
+  margin: auto;
+
   .card {
     padding: 20px;
   }
   .cards {
-    margin-top: $xll;
+   
     p {
       margin-bottom: $xl-3;
       font-size: $xl;
@@ -94,7 +97,7 @@
     }
     .image {
       @include flex(center, none, none);
-      margin-bottom: $xl-4;
+      margin-bottom: .5em;
       .img {
         width: $xll-3;
         height: $xll-3;
@@ -106,10 +109,11 @@
         }
       }
       .img-text {
-        margin-left: $xl-3;
+        // margin-left: $xl-3;
         h3 {
+          font-weight: 500;
           font-size: $xl-2;
-          margin-bottom: $s;
+          // margin-bottom: $s;
         }
         span {
           color: rgba($white, 0.5);
@@ -167,6 +171,11 @@
 //   color: #171e20 !important;
 // }
 
+.link{
+  color: #243a23ab;
+  transition: 0.4s ease-in-out;
+  padding-bottom: 2px;
+}
 
 
 // footer
@@ -184,7 +193,7 @@ footer {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: $lg;
-    margin-bottom: $xl-6;
+    margin-bottom: 1.5em;
   }
   span,
   p {
@@ -200,7 +209,7 @@ footer {
     }
   }
   .connect {
-    @include flex(center, space-between, none);
+    @include flex(center, space-evenly, none);
     span {
       font-size: 10px;
       letter-spacing: 2px;
@@ -240,7 +249,7 @@ footer {
 }
 .agency {
   .content {
-    margin-top: $xll;
+    margin-top: 1.5em;
     h1 {
       font-size: $xl-6;
     }
@@ -251,7 +260,7 @@ footer {
       }
     }
     .misson-p {
-      border-left: 5px solid $indigo;
+      border-left: 5px solid #398634;
       padding-left: $xl-5;
     }
   }
@@ -391,4 +400,12 @@ footer {
       flex-direction: column;
     }
   }
+}
+
+// form
+.input{
+  border-bottom: 2px solid #e5e7eb;
+  width: 100%;
+  padding-block: 4px;
+  padding-inline: 4px;
 }

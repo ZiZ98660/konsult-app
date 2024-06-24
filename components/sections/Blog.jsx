@@ -5,12 +5,11 @@ import { Title, TitleSm } from "@/components/Title"
 const Blog = () => {
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='agency bg-top pb-16'>
         <div className='sass-container'>
           <div className='heading-title'>
             <TitleSm title='BLOG' /> <br />
-            <br />
-            <Title title='Our views on marketing, design & technology' />
+            <Title title='Our views on tested and trusted business strategies and methodologies ' />
           </div>
           <BlogCard />
         </div>

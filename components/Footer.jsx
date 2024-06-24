@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin, AiFillMessage,} from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin, AiFillMessage, AiFillTwitterSquare,} from "react-icons/ai"
 import {FaMapMarkerAlt, FaPhone, FaEnvelope} from 'react-icons/fa'
 
 const Footer = () => {
@@ -55,37 +55,40 @@ const Footer = () => {
                 </div>
               </div> */}
               {/* <button className='button-primary'>Request for quote</button> */}
+              <div className=' pt-24 flex justify-center'>
+                <div>
+                  <Link href='https://www.instagram.com/capitalgrowth_academy?igsh=MTczNTRnZmZweDZvaQ%3D%3D&utm_source=qr' target="_blank" >
+                    <AiFillInstagram size={40} />
+                  </Link>
+                </div>
+                <div>
+                  <Link href='https://x.com/capitalgrowth_n?s=21&t=GCOoURW0YZ9Y9vDX14vLBA'>
+                    <AiFillTwitterSquare size={40}  className="rounded-lg" />
+                  </Link>
+                </div>
+              </div>
             </div>
             <ul>
               <h3>Solutions</h3>
               <li>
-                <Link href='/'>KICKBOX</Link>
+                <Link href='/solutions/kickbox'>KICKBOX</Link>
               </li>
               <li>
-                <Link href='/'>Innovation Platform</Link>
+                <Link href='/solutions/lsp'>LEGO®️ SERIOUS PLAY®️</Link>
               </li>
               <li>
-                <Link href='/'>Methodology
-
-</Link>
+                <Link href='/'>Training
+                </Link>
               </li>
               <li>
-                <Link href='/'>Professional Services</Link>
+                <Link href='/'>Consultancy</Link>
               </li>
-              <li>
-                <Link href='/'>Strategic Support</Link>
-              </li>
-              {/* <li>
-                <Link href='/'>Contact</Link>
-              </li> */}
+ 
             </ul>
             <ul>
               <h3>Resources</h3>
               <li>
-                <Link href='/'>KICKBOX</Link>
-              </li>
-              <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               <li>
                 <Link href='/'>Case studies</Link>
@@ -93,57 +96,29 @@ const Footer = () => {
               <li>
                 <Link href='/'>Webinars</Link>
               </li>
-              <li>
-                <Link href='/'>LinkedIn</Link>
-              </li>
             </ul>
             <ul>
               <h3>About Capital Growth</h3>
-              {/* <div className='connect'>
-                <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillInstagram size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillLinkedin size={25} />
-                  </Link>
-                </li>
-              </div> */}
               <li>
-                <Link href='/'>About us</Link>
+                <Link href='/about-us'>About us</Link>
               </li>
               <li>
                 <Link href='/'>Open positions</Link>
               </li>
               <li>
-                <Link href='/'>FAQ</Link>
+                <Link href='/faqs'>FAQ</Link>
               </li>
               <li>
                 <Link href='/'>Demo</Link>
               </li>
               <li>
-                <Link href='/'>Get in contact</Link>
+                <Link href='/'>Contact Us</Link>
               </li>
               <li>
                 <Link href='/'>Terms and conditions</Link>
               </li>
               <li>
                 <Link href='/'>Privacy policy</Link>
-              </li>
-              <li>
-                <Link href='/'>G2 reviews</Link>
               </li>
             </ul>
           </div>

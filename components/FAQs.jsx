@@ -3,11 +3,13 @@ import { Title } from "./Title"
 import { brand, faq_data } from "@/public/assets/data/dummydata"
 import Text from "./Text"
 import { FAQCard } from "./Card"
+import Link from "next/link";
+
 
 const FAQs = () => {
   return (
     <>
-      <section className='sass-container pb-16 '>
+      <section className='sass-container pt-4 pb-16 '>
         <div
         className="grid-2 pb-16"
         >
@@ -25,11 +27,12 @@ const FAQs = () => {
         <div
         className="flex gap-x-2"
         >
-           <button
+           <Link
+           href={'/faqs'}
               className="py-[10px] mt-5 bg-primary-100 rounded-lg px-[30px]"
               >
                 See FAQs
-              </button>
+              </Link>
            <button
               className="py-[10px] mt-5 text-primary-200 bg-[#e3e2e0] rounded-lg px-[30px]"
               >

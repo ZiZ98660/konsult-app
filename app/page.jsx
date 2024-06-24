@@ -13,15 +13,18 @@ import Text from "@/components/Text"
 import { FaDotCircle } from "react-icons/fa"
 import { DotIcon } from "@/public/assets/icons/icons"
 import FAQs from "@/components/FAQs"
+import Link from "next/link"
+import Testimonial2 from "@/components/Testimonial copy"
+import Form from "@/components/sections/Form"
 
 
 export default function Home() {
   return (
     <> 
-     <section className='hero relative opacity-[.88] bg-[#398634]'>
+     <section className='hero relative opacity-[.88] bg-[#5aad6e]'>
         {/* <img src="/assets/images/firm.jpg" alt="carousel?" className="absolute left-0 top-0 opacity-75 z-[-1]" /> */}
       <div className='sass-container flex gap-x-8 justify-around items-center h-full  !text-left '>
-      <Title title='Become an Innovation Leader - Measurable Results Through Decentralized Innovation' 
+      <Title title='Become an Innovation Leader - Achieve Tangible Results Through Decentralized Innovation' 
       className={'!text-light w-[50pc] !text-[2.7rem]  '}
       />
         <img src={'/assets/images/logo.png'} alt="capital growth academy" />
@@ -37,9 +40,9 @@ export default function Home() {
             <div
             className="flex gap-x-1"
             >
-          <Title title='Corporate Innovation needs' />
+          <Title title='Transform Corporate Innovation' />
           <div className="px-2 py-4 bg-[#7cdb7c73]" >
-          <Title title=' to change' />
+          <Title title=' Today' />
               
             </div>
           </div>
@@ -48,24 +51,22 @@ export default function Home() {
             <div className="grid-3  mb-20">
 
           <Card2
-            details={'of CEOs believe innovation is critical'}
+            details={'of CEOs agree: innovation is crucial for success'}
             percent={84}
             />
             <Card2
-            details={'of business models are at risk'}
+            details={'of business models face disruption'}
             percent={80}
             />
             <Card2
-            details={'of CEOs are satisfied with their innovation performance'}
+            details={'of CEOs are satisfied with their innovation outcomes'}
             percent={6}
             />
             </div>
             <span
             className="text-center text-lg"
             >
-The time of putting a bunch of creative 'Corporate Pirates' in a colorful 
-innovation hub expecting them to deliver a new flagship product must be 
-over. Instead, corporate innovation performance requires a data-driven, monitored and structured approach.
+The era of relying on isolated 'Corporate Pirates' for groundbreaking ideas is over. It's time for a strategic, data-driven, and monitored approach to corporate innovation.
             </span>
           </div>
         </div>
@@ -83,22 +84,23 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
         </div> */}
         </div>
         <div
-        className="bg-primary-300  py-20 px-8 "
+        className="bg-primary-100  py-20  "
         >
           <div
           className="sass-container "
           >
-          <Title title='Innovation as a discipline'
+          <Title title='Embrace Innovation as a Discipline'
           className={'!text-light text-center pb-10'}
           />
           <div
             className="w-full text-center text-light pb-8"
             >
-    It is high time to treat corporate innovation as a discipline by activating an 
-    Innovation Operating System with clear KPIs, Reporting and Monitoring.
+   It's time to revolutionize corporate innovation by adopting a comprehensive Innovation Framework with clear KPIs, robust reporting, and continuous monitoring.
             </div>
 
-            <div
+            <Testimonial2/>
+
+            {/* <div
             className="bg-primary-200 my-8 p-6 rounded-2xl "
             >
               <Text
@@ -138,7 +140,7 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
                     title={'INNOVATION ACCOUNTING'}
                     />
                     <Text
-                    text={'Monitor & Report'}
+                    text={'Track and report progress with precision'}
                     className={'text-dark'}
                     />
                   </div>
@@ -171,7 +173,7 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
                 </div>
               </div>
              </div>
-            </div>
+            </div> */}
             <div
             className="text-center pt-6 "
             >
@@ -195,14 +197,18 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
             >
               Our FlagShip Product for Exploration
             </span>
-              <img src="/assets/images/kickbox_logo.png" alt="" className="pt-4 pb-10" />
+            <p
+              className="text-[3.5em] font-semibold py-14 "
 
+              >
+                KICKBOX
+              </p>
               <Text
               text = 'An end-to-end solution for employee engagement,idea management and idea execution. Our KICKBOX concept is based on a proven methodology used by 1000+ companies globally.'
               className={'text-dark'}
               />
               <div
-              className="flex gap-x-2 items-center pt-10"
+              className="flex gap-x-2 items-center pt-6"
               >
                 <DotIcon
                 color={'#373435'}
@@ -234,20 +240,81 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
               className={'text-dark'}
               />
               </div>
-              <button
-              className="bg-primary-300 rounded-md py-2 px-5 "
-              >
-              <Text
-              text = 'Discover KICKBOX'
-              className={' text-sm !text-light'}
-              />
-              
-              </button>
+<Link
+              className="bg-primary-300    rounded-md py-2 px-5 text-sm !text-light"
+              href={'/solutions/kickbox/discover'}
+              >   
+                Discover KICKBOX              
+              </Link>
 
           </div>
         </div>
+        <div
+        className="grid-2 pt-20  sass-container"
+        >
+         
+          <div>
+            <span
+            className="pb-4 text-primary-200"
+            >
+              Our FlagShip Product for Exploration
+            </span>
+              <p
+              className="text-[3.5em] font-semibold py-14 "
+
+              >
+                LEGO® SERIOUS PLAY®
+              </p>
+
+              <Text
+              text = 'A powerful, experiential process designed to enhance innovation and business performance. LSP offers a refreshing, engaging, and profoundly productive approach to meeting the complex demands of today’s business environment.'
+              className={'text-dark'}
+              />
+              <div
+              className="flex gap-x-2 items-center pt-6"
+              >
+                <DotIcon
+                color={'#373435'}
+                />
+                <Text
+              text = 'Swisscom created 10 spin-offs'
+              className={'text-dark'}
+              />
+              </div>
+              <div
+              className="flex gap-x-2 items-center"
+              >
+                <DotIcon
+                color={'#373435'}
+                />
+                <Text
+              text = 'Siemens Energy issued 12 patents'
+              className={'text-dark'}
+              />
+              </div>
+              <div
+              className="flex gap-x-2 items-center pb-10"
+              >
+                <DotIcon
+                color={'#373435'}
+                />
+                <Text
+              text = 'A retailer saved 6.5 millions'
+              className={'text-dark'}
+              />
+              </div>
+<Link
+              className="bg-primary-300 rounded-md py-2 px-5  text-sm  !text-light "
+              href={'/solutions/lsp/discover'}
+              >
+              Discover LSP®      
+              </Link>
+
+          </div>
+          <img src="/assets/images/serious_play.png" alt="" className="w-full h-[71%] rounded-md flex justify-self-end " />
         </div>
-    <Testimonial />
+        </div>
+    {/* <Testimonial /> */}
       {/* <Expertise /> */}
 
 
@@ -281,6 +348,7 @@ over. Instead, corporate innovation performance requires a data-driven, monitore
    
     {/* <Banner /> */}
     {/* <ShowCase /> */}
+    <Form/>
     <FAQs />
 
     {/* <div className='text-center'>

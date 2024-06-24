@@ -2,6 +2,8 @@ import Banner from "@/components/Banner"
 import Brand from "@/components/FAQs"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleSm } from "@/components/Title"
+import Text from "../Text"
+import { DotIcon } from "@/public/assets/icons/icons"
 
 const Agency = () => {
   return (
@@ -9,55 +11,89 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='sass-container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT AGENCY' /> <br />
-            <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+            <TitleSm title='ABOUT US' />
+          </div>
+          <div>
+            <Text
+            text={'Welcome to Capital Growth Academy, a leading training and talent development consultancy in Sub-Saharan Africa. We specialize in design, innovation, and growth strategies, empowering businesses to scale and excel. Our approach merges innovative design thinking with strategic analysis, tailored specifically to the dynamics of regional markets.'}
+            className={'text-center !text-lg'}
+            />
           </div>
 
-          <div className='content flex1'>
-            <div className='left sass-w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
-              <div className='grid-3'>
-                <div className='box'>
-                  <h1 className='indigo'>10+</h1>
-                  <h3>Years of experience</h3>
-                </div>
-                <div className='box'>
-                  <h1 className='indigo'>50+</h1>
-                  <h3>Successful cases</h3>
-                </div>
-                <div className='box'>
-                  <h1 className='indigo'>12+</h1>
-                  <h3>Industry awards</h3>
-                </div>
-              </div>
+          <div className='content flex'>
+           
+            <div className='left sass-w-60'>
+              <TitleSm title='Our Vision' />
+              <br />
+              <p className='misson-p'>"To be the catalyst for transformative business growth and innovation in Sub-Saharan Africa."</p>
             </div>
-            <div className='right sass-w-40 ml'>
-              <img src='/assets/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+            <div className='right sass-w-40 py-[3em]'>
+              <img src='/assets/images/firm_2.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 
           <div className='content flex'>
-            <div className='left sass-w-40 py'>
-              <img src='/assets/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+            <div className='left sass-w-40 py-[3em]'>
+              <img src='/assets/images/firm_black.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right sass-w-60 ml'>
-              <TitleSm title='Our mission' />
+              <TitleSm title='Our Mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>"Our mission is to equip businesses with best-in-class training and strategic talent development, enabling them to innovate and scale effectively."
+</p>
             </div>
+          </div>
+          <div className='content flex'>
+           
+           <div className='left sass-w-60'>
+             <TitleSm title='Our Core Values' />
+             <br />
+             <div className='misson-p grid gap-y-3'>
+   
+                
+                <span>
+                  <span className='flex gap-x-3'><DotIcon color={'black'}/> <span className="font-bold ">Audacity:</span> <span className='self-start' >{'Encouraging bold and decisive actions in business.'}</span></span>
+                  
+                </span>
+                           
+                <span className="flex items-start gap-x-2">
+                  <span className=' flex gap-x-3'><DotIcon color={'black'}/> <span className="font-bold">Innovation:</span> </span><span className="" >{'Pushing the boundaries of creativity to keep our clients ahead.'}</span>
+                  
+                </span>
+                <span className="flex items-start gap-x-2">
+                  <span className=' flex gap-x-3'><DotIcon color={'black'}/> <span className="font-bold">Growth:</span> </span><span className="" >{'Focused on delivering scalable success and continuous improvement.'}</span>
+                  
+                </span>
+                <span className="flex items-start gap-x-2">
+                  <span className=' flex gap-x-3'><DotIcon color={'black'}/> <span className="font-bold">Empathy:</span> </span><span className="" >{'Tailoring solutions to meet the unique challenges of each business.'}</span>
+                  
+                </span>
+               
+                 
+                
+            
+             </div>
+           </div>
+           <div className='right sass-w-40 py-[3em]'>
+             <img src='/assets/images/brain-storm.jpg' alt='Img' className='round' width='100%' height='100%' />
+           </div>
+         </div>
+         <div>
+            <Text
+            text={"At Capital Growth Academy, we are more than consultants; we are your partners in achieving sustained growth and operational excellence. Join us to redefine what's possible for your business in the vibrant markets of Sub-Saharan Africa."}
+            className={'text-center !text-lg pt-10 pb-28'}
+            />
           </div>
         </div>
       </section>
 
-      <Brand />
+      {/* <Brand />
       <Testimonial />
       <Banner />
       <br />
       <br />
       <br />
-      <br />
+      <br /> */}
     </>
   )
 }
