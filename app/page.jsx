@@ -84,7 +84,7 @@ export default function Home() {
 						src={"/assets/images/shake_2.jpg"}
 						className="absolute top-0 left-0 w-full h-full"
 					/>
-					<div className="absolute top-0 left-0 w-full h-full bg-primary-200"></div>
+					<div className="absolute top-0 left-0 w-full h-full bg-[#b3f8c6] opacity-20"></div>
 					<div className="sass-container relative z-20 ">
 						<Title
 							title="Embrace Innovation as a Discipline"
