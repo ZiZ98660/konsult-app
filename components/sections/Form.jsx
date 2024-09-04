@@ -15,11 +15,11 @@ const Form = () => {
 					/>
 				</div>
 				<div className="grid-2  justify-between">
-					<label htmlFor="First name *">
+					<label className="w-full text-left" htmlFor="First name *">
 						<p>First name *</p>
 						<input className="input" required type="text" />
 					</label>
-					<label htmlFor="Last name *">
+					<label className="w-full text-left" htmlFor="Last name *">
 						<p>Last name *</p>
 						<input className="input" required type="text" />
 					</label>

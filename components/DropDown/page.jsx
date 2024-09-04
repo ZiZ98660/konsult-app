@@ -7,13 +7,16 @@ import Link from "next/link";
 const DropDown = ({ isOpen, onClose }) => {
 	return (
 		<div
-			className={` bg-[#effbf3] absolute rounded-md py-1  top-[1.9em] z-[11] min-w-[5em] w-max ${
+			className={` bg-[#effbf3] absolute rounded-md py-1  top-[1.9em] z-[11] min-w-full] w-max ${
 				isOpen ? styles.open : styles.close
 			} `}
 			onMouseLeave={onClose}
 		>
-			{link.map((l) => (
-				<div className=" border-b py-3 px-2 border-solid border-[#d5f4e6] hover:bg-[#cff7dc] ease-in duration-[250ms]">
+			{link.map((l, i) => (
+				<div
+					key={i}
+					className=" border-b py-3 px-2 border-solid border-[#d5f4e6] hover:bg-[#cff7dc] ease-in duration-[250ms]"
+				>
 					<Link className="!cursor-pointer" href={l.link}>
 						{l.title}
 					</Link>

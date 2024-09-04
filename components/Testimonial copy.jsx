@@ -79,8 +79,8 @@ const Testimonial2 = () => {
 					</span>
 					<div className="cards">
 						<Slider {...settings}>
-							{testimonial2.map((user) => (
-								<div>
+							{testimonial2.map((user, i) => (
+								<div key={i}>
 									<div className="card">
 										<div className="image">
 											{/* <div className='img'> */}

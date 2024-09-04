@@ -22,10 +22,10 @@ export default function Home() {
 		<>
 			<section className="hero relative opacity-[.88] bg-[#5aad6e]">
 				{/* <img src="/assets/images/firm.jpg" alt="carousel?" className="absolute left-0 top-0 opacity-75 z-[-1]" /> */}
-				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left ">
+				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left max-800:grid max-800:!text-center max-800:place-items-center max-800:gap-y-8">
 					<Title
 						title="Become an Innovation Leader - Achieve Tangible Results Through Decentralized Innovation"
-						className={"!text-light w-[50pc] !text-[2.7rem]  "}
+						className={"!text-light w-[50pc]  max-800:w-full  "}
 					/>
 					<img src={"/assets/images/logo.png"} alt="capital growth academy" />
 				</div>
@@ -34,7 +34,7 @@ export default function Home() {
 				<div className="sass-container pb-24 ">
 					<div className="heading-title !text-3xl  !text-dark">
 						<div className="flex w-full justify-center">
-							<div className="flex gap-x-1">
+							<div className="flex gap-x-1 max-lg:grid ">
 								<Title title="Transform Corporate Innovation" />
 								<div className="px-2 py-4 bg-[#7cdb7c73]">
 									<Title title=" Today" />
@@ -55,7 +55,7 @@ export default function Home() {
 									details={
 										"of CEOs are satisfied with their innovation outcomes"
 									}
-									percent={6}
+									percent={"06"}
 								/>
 							</div>
 							<span className="text-center text-lg">
@@ -82,7 +82,7 @@ export default function Home() {
 					<img
 						alt=""
 						src={"/assets/images/shake_2.jpg"}
-						className="absolute top-0 left-0 w-full h-full"
+						className="absolute top-0 left-0 w-full h-full object-cover"
 					/>
 					<div className="absolute top-0 left-0 w-full h-full bg-[#b3f8c6] opacity-20"></div>
 					<div className="sass-container relative z-20 ">
@@ -223,7 +223,7 @@ export default function Home() {
 							</Link>
 						</div>
 					</div>
-					<div className="grid-2 pt-20  sass-container">
+					<div className="grid-2 pt-20 mb-24 sass-container">
 						<div>
 							<span className="pb-4 text-primary-200">
 								Our FlagShip Product for Exploration
@@ -267,7 +267,7 @@ export default function Home() {
 						<img
 							src="/assets/images/serious_play.png"
 							alt=""
-							className="w-full h-[71%] rounded-md flex justify-self-end "
+							className="w-full max-h-[40em] rounded-md object-cover flex justify-self-end "
 						/>
 					</div>
 				</div>

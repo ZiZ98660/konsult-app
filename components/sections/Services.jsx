@@ -115,7 +115,7 @@ const Services = () => {
 							className={"font-bold !text-lg"}
 						/>
 						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
-							<DotIcon className={"w-[3%]"} color={"black"} />
+							<DotIcon className={"w-[1em]"} color={"black"} />
 							Our executive coaching service is focused on enhancing leadership
 							skills, strategic thinking, and decision-making capabilities. We
 							work one-on-one with top executives to refine their leadership
@@ -129,7 +129,7 @@ const Services = () => {
 							className={"font-bold !text-lg"}
 						/>
 						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
-							<DotIcon className={"w-[3%]"} color={"black"} />
+							<DotIcon className={"w-[1em]"} color={"black"} />
 							From concept to market, our product development service helps
 							businesses create innovative products that resonate with
 							customers. We combine market insights with design thinking to
@@ -142,7 +142,7 @@ const Services = () => {
 							className={"font-bold !text-lg"}
 						/>
 						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
-							<DotIcon className={"w-[3%]"} color={"black"} />
+							<DotIcon className={"w-[1em]"} color={"black"} />
 							Our branding service covers everything from brand conception to
 							design and development. We help businesses establish a compelling
 							brand identity that captures the essence of their company and
@@ -156,7 +156,7 @@ const Services = () => {
 							className={"font-bold !text-lg"}
 						/>
 						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
-							<DotIcon className={"w-[3%]"} color={"black"} />
+							<DotIcon className={"w-[1em]"} color={"black"} />
 							We assist companies in crafting robust growth strategies that are
 							practical and scalable. Our strategic planning focuses on
 							leveraging your company’s strengths, identifying new

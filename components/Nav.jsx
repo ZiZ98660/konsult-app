@@ -47,12 +47,14 @@ const Nav = () => {
 						</Link>
 					</div>
 					<nav
-						className={` flex  ${open ? "openMenu" : "closeMenu"}`}
+						className={` flex  ${open ? "openMenu" : "closeMenu"} ${
+							!open ? "max-800:!hidden" : ""
+						}`}
 						onClick={() => setOpen(null)}
 					>
 						<div
 							// className="max-[800px]:hidden"
-							className="flex justify-center"
+							className="flex justify-center gap-x-12 max-md:gap-x-4  max-800:w-full max-800:grid max-800:gap-y-12 max-800:place-content-center "
 						>
 							{/* <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
               Solutions
@@ -99,11 +101,9 @@ const Nav = () => {
             </Link> */}
 						</div>
 					</nav>
-					<button className="button-primary  max-[1300px]:place-self-center max-[1300px]:w-[50%]  ">
-						contact us
-					</button>
+					<button className="button-primary max-800:hidden">contact us</button>
 					<button
-						className=" invisible max-[800px]:block"
+						className=" hidden max-800:block "
 						onClick={() => setOpen(!open)}
 					>
 						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
