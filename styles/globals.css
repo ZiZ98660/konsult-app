@@ -87,9 +87,8 @@ body {
 
 .menu-bar ul li a {
   font-size: 20px;
-  color: var(--color-white);
   text-decoration: none;
-
+  color: black;
   transition: all 0.3s;
 }
 
