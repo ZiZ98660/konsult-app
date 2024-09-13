@@ -84,7 +84,7 @@ export const testimonial2 = [
   {
     id: 1,
     name: "Innovation Accounting",
-    // cover: "../images/e1.jpg",
+    // cover"../images/e1.jpg",
     // post: "Seven consulting - CEO",
     desc: "Track and report progress with precision.",
   },
