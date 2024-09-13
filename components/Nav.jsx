@@ -96,7 +96,7 @@ const Nav = () => {
 							>
 								Blog
 							</Link>
-							{/* <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
+							{/* <Link href='/contact' class={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link> */}
 						</div>
