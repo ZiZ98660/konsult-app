@@ -67,47 +67,40 @@ const Agency = () => {
 							<TitleSm title="Our Core Values" />
 							<br />
 							<div className="misson-p grid gap-y-3">
-								<span className="flex items-start gap-x-2">
-									<span className=" flex gap-x-3">
-										<DotIcon color={"black"} />{" "}
+								<span className="items-start gap-x-2 !text-left">
+									<span className=" !gap-x-3 !inline">
+										<DotIcon className={'!inline !mb-[3.5px] !mr-[5px]'} color={"black"} />{" "}
 										<span className="font-bold">Audacity:</span>{" "}
 									</span>
 									<span className="">
 										{"Encouraging bold and decisive actions in business."}
 									</span>
 								</span>
-
-								<span className="flex items-start gap-x-2">
-									<span className=" flex gap-x-3">
-										<DotIcon color={"black"} />{" "}
+								<span className="items-start gap-x-2 !text-left">
+									<span className=" !gap-x-3 !inline">
+										<DotIcon className={'!inline !mb-[3.5px] !mr-[5px]'} color={"black"} />{" "}
 										<span className="font-bold">Innovation:</span>{" "}
 									</span>
 									<span className="">
-										{
-											"Pushing the boundaries of creativity to keep our clients ahead."
-										}
+										{"Pushing the boundaries of creativity to keep our clients ahead"}
 									</span>
 								</span>
-								<span className="flex items-start gap-x-2">
-									<span className=" flex gap-x-3">
-										<DotIcon color={"black"} />{" "}
+								<span className="items-start gap-x-2 !text-left">
+									<span className=" !gap-x-3 !inline">
+										<DotIcon className={'!inline !mb-[3.5px] !mr-[5px]'} color={"black"} />{" "}
 										<span className="font-bold">Growth:</span>{" "}
 									</span>
 									<span className="">
-										{
-											"Focused on delivering scalable success and continuous improvement."
-										}
+										{"Focused on delivering scalable success and continuous improvement."}
 									</span>
 								</span>
-								<span className="flex items-start gap-x-2">
-									<span className=" flex gap-x-3">
-										<DotIcon color={"black"} />{" "}
+								<span className="items-start gap-x-2 !text-left">
+									<span className=" !gap-x-3 !inline">
+										<DotIcon className={'!inline !mb-[3.5px] !mr-[5px]'} color={"black"} />{" "}
 										<span className="font-bold">Empathy:</span>{" "}
 									</span>
 									<span className="">
-										{
-											"Tailoring solutions to meet the unique challenges of each business."
-										}
+										{"Tailoring solutions to meet the unique challenges of each business."}
 									</span>
 								</span>
 							</div>
@@ -127,7 +120,7 @@ const Agency = () => {
 							text={
 								"At Capital Growth Academy, we are more than consultants; we are your partners in achieving sustained growth and operational excellence. Join us to redefine what's possible for your business in the vibrant markets of Sub-Saharan Africa."
 							}
-							className={"text-center !text-lg pt-10 pb-28"}
+							className={"text-center !text-lg !pt-10 !pb-28"}
 						/>
 					</div>
 				</div>

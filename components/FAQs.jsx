@@ -8,8 +8,8 @@ import Link from "next/link";
 const FAQs = () => {
 	return (
 		<>
-			<section className="sass-container pt-4 pb-16 ">
-				<div className="grid-2 pb-16">
+			<section className="sass-container !pt-4 !pb-16 ">
+				<div className="grid-2 !pb-16">
 					<div>
 						<div>
 							<Title title={"Any questions?"} />
@@ -22,11 +22,11 @@ const FAQs = () => {
 						<div className="flex gap-x-2 w-full justify-center">
 							<Link
 								href={"/faqs"}
-								className="py-[10px] mt-5 bg-primary-100 rounded-lg px-[30px]"
+								className="py-[10px] !mt-5 bg-primary-100 rounded-lg px-[30px]"
 							>
 								See FAQs
 							</Link>
-							<button className="py-[10px] mt-5 text-primary-200 bg-[#e3e2e0] rounded-lg px-[30px]">
+							<button className="py-[10px] !mt-5 text-primary-200 bg-[#e3e2e0] rounded-lg px-[30px]">
 								Ask questions
 							</button>
 						</div>

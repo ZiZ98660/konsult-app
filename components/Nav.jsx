@@ -54,7 +54,7 @@ const Nav = () => {
 					>
 						<div
 							// className="max-[800px]:hidden"
-							className="flex justify-center gap-x-12 max-md:gap-x-4  max-800:w-full max-800:grid max-800:gap-y-12 max-800:place-content-center "
+							className="flex justify-center gap-x-12 max-md:!gap-x-4  max-800:!w-full max-800:!grid max-800:!gap-y-12 max-800:!place-content-center "
 						>
 							{/* <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
               Solutions
@@ -106,7 +106,7 @@ const Nav = () => {
 						className=" hidden max-800:block "
 						onClick={() => setOpen(!open)}
 					>
-						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line fill="black" size={25} />}
+						{open ? <AiOutlineClose fill="black" size={25} /> : <RiMenu4Line fill="black" size={25} />}
 					</button>
 				</div>
 			</header>

@@ -9,7 +9,7 @@ const Services = () => {
 	return (
 		<>
 			<section className="agency bg-top">
-				<div className="sass-container pb-28">
+				<div className="sass-container !pb-28">
 					<div className="heading-title">
 						<TitleSm title="SERVICES" />
 					</div>
@@ -39,7 +39,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link py-[10px] inline-block !mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -58,7 +58,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link py-[10px] inline-block !mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -76,7 +76,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link py-[10px] inline-block !mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -93,7 +93,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link py-[10px] inline-block !mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
 						>
 							Get more information
 						</Link>

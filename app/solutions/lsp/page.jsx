@@ -8,7 +8,7 @@ const LSP = () => {
 	return (
 		<>
 			<section className="agency bg-top">
-				<div className="sass-container pb-28">
+				<div className="sass-container !pb-28">
 					<div className="heading-title">
 						<TitleSm title="UNLEASH CREATIVITY WITH LEGO®️ SERIOUS PLAY®️" />
 						<TitleSm

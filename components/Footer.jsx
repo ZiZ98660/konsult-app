@@ -24,7 +24,7 @@ const Footer = () => {
 							/>
 
 							{/* <div
-              className="!text-[14px] !text-[#141a15a1] pb-10 grid gap-y-6"
+              className="!text-[14px] !text-[#141a15a1] !pb-10 grid gap-y-6"
               >
                 <div
                 className="flex gap-x-2 "
@@ -63,7 +63,7 @@ const Footer = () => {
                 </div>
               </div> */}
 							{/* <button className='button-primary'>Request for quote</button> */}
-							<div className=" pt-24 flex justify-center">
+							<div className=" !pt-24 flex justify-center">
 								<div>
 									<Link
 										href="https://www.instagram.com/capitalgrowth_academy?igsh=MTczNTRnZmZweDZvaQ%3D%3D&utm_source=qr"
