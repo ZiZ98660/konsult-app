@@ -42,7 +42,7 @@ const Agency = () => {
 						</div>
 					</div>
 
-					<div className="content flex">
+					<div className="content flex max-800:!flex-col-reverse">
 						<div className="left sass-w-40 py-[3em]">
 							<img
 								src="/assets/images/firm_black.jpg"
@@ -52,7 +52,7 @@ const Agency = () => {
 								height="100%"
 							/>
 						</div>
-						<div className="right sass-w-60 ml max-800:flex-col-reverse">
+						<div className="right sass-w-60 ml ">
 							<TitleSm title="Our Mission" />
 							<br />
 							<p className="misson-p">
