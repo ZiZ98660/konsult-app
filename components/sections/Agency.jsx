@@ -52,7 +52,7 @@ const Agency = () => {
 								height="100%"
 							/>
 						</div>
-						<div className="right sass-w-60 ml">
+						<div className="right sass-w-60 ml max-800:flex-col-reverse">
 							<TitleSm title="Our Mission" />
 							<br />
 							<p className="misson-p">
