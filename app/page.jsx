@@ -22,7 +22,7 @@ export default function Home() {
 		<>
 			<section className="hero relative opacity-[.88] bg-[#5aad6e]">
 				{/* <img src="/assets/images/firm.jpg" alt="carousel?" className="absolute left-0 top-0 opacity-75 z-[-1]" /> */}
-				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left max-800:grid max-800:!text-center max-800:place-items-center max-800:gap-y-8">
+				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left max-800:!grid max-800:!text-center max-800:!place-items-center max-800:!gap-y-8">
 					<Title
 						title="Become an Innovation Leader - Achieve Tangible Results Through Decentralized Innovation"
 						className={"!text-light w-[50pc]  max-800:w-full  "}
@@ -34,10 +34,10 @@ export default function Home() {
 				<div className="sass-container pb-24 ">
 					<div className="heading-title !text-3xl  !text-dark">
 						<div className="flex w-full justify-center">
-							<div className="flex gap-x-1 max-lg:grid ">
+							<div className="flex gap-x-1 max-lg:!grid ">
 								<Title title="Transform Corporate Innovation" />
 								<div className="px-2 py-4 bg-[#7cdb7c73]">
-									<Title title=" Today" />
+									<Title className={'capitalize'} title=" Today" />
 								</div>
 							</div>
 						</div>

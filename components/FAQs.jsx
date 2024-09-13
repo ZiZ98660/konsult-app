@@ -19,7 +19,7 @@ const FAQs = () => {
 								}
 							/>
 						</div>
-						<div className="flex gap-x-2">
+						<div className="flex gap-x-2 w-full justify-center">
 							<Link
 								href={"/faqs"}
 								className="py-[10px] mt-5 bg-primary-100 rounded-lg px-[30px]"
