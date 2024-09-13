@@ -27,7 +27,7 @@ function SamplePrevArrow(props) {
 	const { onClick } = props;
 	return (
 		<div className="slick-arrow">
-			<button className="prev !bg-green-300" onClick={onClick}>
+			<button classname="!prev !bg-green-300" onClick={onClick}>
 				<RiArrowLeftSLine size={25} />
 			</button>
 		</div>
@@ -57,7 +57,7 @@ const Testimonial = () => {
 	};
 	return (
 		<>
-			<section className=" sass-container !mt-10 mb-16 ">
+			<section className=" sass-container !mt-10 !mb-16 ">
 				<div className="text-center !pt-2 !pb-28 ">
 					<Title
 						title="Best-in-Class Innovation management experts"
@@ -69,7 +69,7 @@ const Testimonial = () => {
 						experts has supported companies around the globe to launch and scale
 						their KICKBOX programs.
 					</div>
-					<div className="pt-6">
+					<div className="!pt-6">
 						Our specialists make sure that all your specific needs are attended
 						to, and our in-house designers translate this into an experience
 						that makes your program unique.
@@ -117,7 +117,7 @@ const Testimonial = () => {
 						className="rounded-[10px] w-full h-full"
 					/>
 
-					<div className="py-3">
+					<div className="!py-3">
 						<Title title={"Get Started Now"} className={"!text-light"} />
 						<div>
 							<Text
@@ -127,7 +127,7 @@ const Testimonial = () => {
 								className={"!text-light "}
 							/>
 						</div>
-						<button className="py-[10px] !mt-5 bg-[#00dc93] rounded-lg px-[30px]">
+						<button className="!py-[10px] !mt-5 bg-[#00dc93] rounded-lg !px-[30px]">
 							Let's talk
 						</button>
 					</div>

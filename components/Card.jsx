@@ -44,7 +44,7 @@ export const Card = ({ data, caption, show, path }) => {
 
 export const Card2 = ({ percent, details }) => {
 	return (
-		<div className="bg-dark grid gap-y-6 place-items-center px-6 py-20  text-light rounded-tl-[2em] rounded-br-[2em] ">
+		<div className="bg-dark grid gap-y-6 place-items-center !px-6 !py-20  text-light rounded-tl-[2em] rounded-br-[2em] ">
 			<div className="text-[3em]">{percent}%</div>
 			<span className="grid justify-center text-sm text-center">{details}</span>
 		</div>
@@ -88,7 +88,7 @@ export const Card3 = ({
 					))}
 				</div>
 				{tag ? (
-					<div className="bg-dark px-1 text-center rounded-md flex place-items-center ">
+					<div className="bg-dark !px-1 text-center rounded-md flex place-items-center ">
 						{kickbox ? (
 							<Text text="+ KICKBOX*" className={"text-[6.7px] text-light"} />
 						) : ideahub ? (
@@ -110,7 +110,7 @@ export const TestimonialCard = ({
 	logo,
 }) => {
 	return (
-		<div className="bg-[#eef9edf4] p-10 rounded-[10px] grid-4 w-full mb-[26px] justify-between">
+		<div className="bg-[#eef9edf4] p-10 rounded-[10px] grid-4 w-full !mb-[26px] justify-between">
 			<img
 				loading="lazy"
 				src={`/assets/images/${profile}`}
@@ -122,11 +122,11 @@ export const TestimonialCard = ({
 			<div>
 				<div>
 					<Text
-						className={"font-semibold !text-[1.4rem] mb-[10px]"}
+						className={"font-semibold !text-[1.4rem] !mb-[10px]"}
 						text={name}
 					/>
 				</div>
-				<Text className={" !text-xs mb-[10px]"} text={position} />
+				<Text className={" !text-xs !mb-[10px]"} text={position} />
 				<div>
 					<Text className={"!text-xs"} text={company} />
 				</div>
@@ -152,7 +152,7 @@ export const FAQCard = ({ question, answer }) => {
 	}, []);
 	return (
 		<div
-			className={` p-4 mb-4 ease-in-out duration-200 bg-[#eef9edf4] rounded-lg ${
+			className={` p-4 !mb-4 ease-in-out duration-200 bg-[#eef9edf4] rounded-lg ${
 				isOpen ? "grid  gap-y-2" : ""
 			}`}
 		>

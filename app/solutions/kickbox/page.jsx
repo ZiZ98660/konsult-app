@@ -27,9 +27,9 @@ const KickBox = () => {
             text = 'Real-World Success Stories:'
             className={'!text-lg font-semibold'}
             />
-            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="pt-[1.8px]">Swisscom:</span></span> <span className='' > <span > <Link className=' link underline hover:text-green-500' href="https://innov8rs.co/articles/employee-driven-innovation-with-kickbox">Over 700 employee ideas have been developed</Link></span>, including "Help2Type," a keyboard for the visually impaired, and a laundry machine tracker used in office space management​ (Kickbox Foundation)(Innov8rs).</span></div>     
-            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="pt-[1.8px]">Siemens Energy:</span></span> <span className='' > <span > <Link className='  link underline hover:text-green-500' href="https://www.rready.com/kickbox-methodology">Boosted internal innovation with projects</Link></span> {` like developing new sources of income and improving operational efficiency​ (BIMS Services)​.`}</span></div>     
-            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="pt-[1.8px]">Post Luxembourg:</span></span> <span className='' ><span > <Link className='  link underline hover:text-green-500' href="https://ventures.swisscom.com/news/rready-ag-makes-innovation-management-for-companies-globally-scalable">Leveraged Kickbox to streamline and enhance their innovation processes</Link> </span>{", leading to substantial cost savings and improved service delivery​ (Swisscom Ventures)​."}</span></div>  
+            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="!pt-[1.8px]">Swisscom:</span></span> <span className='' > <span > <Link className=' link underline hover:text-green-500' href="https://innov8rs.co/articles/employee-driven-innovation-with-kickbox">Over 700 employee ideas have been developed</Link></span>, including "Help2Type," a keyboard for the visually impaired, and a laundry machine tracker used in office space management​ (Kickbox Foundation)(Innov8rs).</span></div>     
+            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="!pt-[1.8px]">Siemens Energy:</span></span> <span className='' > <span > <Link className='  link underline hover:text-green-500' href="https://www.rready.com/kickbox-methodology">Boosted internal innovation with projects</Link></span> {` like developing new sources of income and improving operational efficiency​ (BIMS Services)​.`}</span></div>     
+            <div className='pl-6'><span className="font-[500] inline-flex items-baseline gap-x-2  "> <DotIcon className={'flex self-center'} color={'black'}/> <span className="!pt-[1.8px]">Post Luxembourg:</span></span> <span className='' ><span > <Link className='  link underline hover:text-green-500' href="https://ventures.swisscom.com/news/rready-ag-makes-innovation-management-for-companies-globally-scalable">Leveraged Kickbox to streamline and enhance their innovation processes</Link> </span>{", leading to substantial cost savings and improved service delivery​ (Swisscom Ventures)​."}</span></div>  
           </div>
           <br />
           <div
@@ -41,7 +41,7 @@ const KickBox = () => {
             />
 
 <Link
-              className="bg-primary-300  flex justify-center mx-auto w rounded-md py-4 px-8  text-sm  !text-light "
+              className="bg-primary-300  flex justify-center !mx-auto w rounded-md !py-4 !px-8  text-sm  !text-light "
               href={'/solutions/kickbox/discover'}
               >
               Discover KICKBOX      

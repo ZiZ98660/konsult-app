@@ -19,7 +19,7 @@ const Footer = () => {
 						<div className="logo">
 							<img
 								src={"/assets/images/logo.png"}
-								className="w-[3.5em] mx-auto mb-4"
+								className="w-[3.5em] !mx-auto !mb-4"
 								alt="capital growth academy"
 							/>
 

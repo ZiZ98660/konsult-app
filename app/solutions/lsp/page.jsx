@@ -29,11 +29,11 @@ const LSP = () => {
 							text="Real-World Success Stories:"
 							className={"!text-lg font-semibold"}
 						/>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Eltel Networks:</span>
+								<span className="!pt-[1.8px]">Eltel Networks:</span>
 							</span>{" "}
 							<span className="">
 								{`Used LSP for strategy development, `}{" "}
@@ -49,11 +49,11 @@ const LSP = () => {
 								</span>
 							</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Samsung:</span>
+								<span className="!pt-[1.8px]">Samsung:</span>
 							</span>{" "}
 							<span className="">
 								{`Applied LSP in their product development processes to `}{" "}
@@ -69,11 +69,11 @@ const LSP = () => {
 								</span>{" "}
 							</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Roche:</span>
+								<span className="!pt-[1.8px]">Roche:</span>
 							</span>{" "}
 							<span className="">
 								{
@@ -99,7 +99,7 @@ const LSP = () => {
 							className={"text-center !text-lg"}
 						/>
 						<Link
-							className="bg-primary-300  flex justify-center w-full] rounded-md py-4 px-8 text-sm  !text-light "
+							className="bg-primary-300  flex justify-center w-full] rounded-md !py-4 !px-8 text-sm  !text-light "
 							href={"/solutions/lsp/discover"}
 						>
 							Discover LSP®

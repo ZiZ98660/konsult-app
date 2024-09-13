@@ -30,27 +30,27 @@ const DiscoverLSP = () => {
 							text={`Program Structure:`}
 							className={"font-bold !text-lg"}
 						/>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Introduction to LSP: </span>
+								<span className="!pt-[1.8px]">Introduction to LSP: </span>
 							</span>{" "}
 							<span className="">{`Understanding the methodology and its applications.`}</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Building and Storytelling: </span>
+								<span className="!pt-[1.8px]">Building and Storytelling: </span>
 							</span>{" "}
 							<span className="">{`Constructing models to represent ideas and sharing insights.`}</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">
+								<span className="!pt-[1.8px]">
 									Strategic Planning and Team Building:{" "}
 								</span>
 							</span>{" "}
@@ -60,11 +60,11 @@ const DiscoverLSP = () => {
 								}
 							</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">
+								<span className="!pt-[1.8px]">
 									Scenario Planning and Solution Testing:{" "}
 								</span>
 							</span>{" "}
@@ -79,37 +79,37 @@ const DiscoverLSP = () => {
 							text={`Expected Benefits:`}
 							className={"font-bold !text-lg"}
 						/>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Enhanced Creativity: </span>
+								<span className="!pt-[1.8px]">Enhanced Creativity: </span>
 							</span>{" "}
 							<span className="">{`Unlock new perspectives and innovative solutions.`}</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Improved Communication: </span>
+								<span className="!pt-[1.8px]">Improved Communication: </span>
 							</span>{" "}
 							<span className="">{`Foster open dialogue and mutual understanding among team members.`}</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Effective Problem-Solving: </span>
+								<span className="!pt-[1.8px]">Effective Problem-Solving: </span>
 							</span>{" "}
 							<span className="">
 								{"Use 3D models to explore and address complex challenges."}
 							</span>
 						</div>
-						<div className="pl-6">
+						<div className="!pl-6">
 							<span className="font-[500] inline-flex items-baseline gap-x-2  ">
 								{" "}
 								<DotIcon className={"flex self-center"} color={"black"} />{" "}
-								<span className="pt-[1.8px]">Stronger Teams: </span>
+								<span className="!pt-[1.8px]">Stronger Teams: </span>
 							</span>{" "}
 							<span className="">
 								{"Build cohesion and collaboration within teams."}
@@ -118,17 +118,17 @@ const DiscoverLSP = () => {
 						<br />
 
 						<Text text={`Why Sign Up?`} className={"font-bold !text-lg"} />
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							Leverage the same methodology used by companies like Samsung and
 							Roche to drive innovation.
 						</p>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							Benefit from a hands-on, engaging process that enhances team
 							performance and strategic thinking.
 						</p>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							Gain insights into your business challenges and opportunities
 							through creative exploration.

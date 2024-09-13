@@ -39,7 +39,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block !mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link !py-[10px] inline-block !mt-3 !mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl !px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -58,7 +58,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block !mt-3 mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link !py-[10px] inline-block !mt-3 !mb-7 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl !px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -76,7 +76,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block !mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link !py-[10px] inline-block !mt-3 !mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl !px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -93,7 +93,7 @@ const Services = () => {
 						</p>
 						<Link
 							href="/#form_section"
-							className="link py-[10px] inline-block !mt-3 mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl px-[30px]"
+							className="link !py-[10px] inline-block !mt-3 !mb-8 bg-white text-primary-100 hover:text-white hover:bg-primary-100  border-solid border-primary-100 border-[1.4px] rounded-2xl !px-[30px]"
 						>
 							Get more information
 						</Link>
@@ -114,7 +114,7 @@ const Services = () => {
 							text={`Executive Coaching`}
 							className={"font-bold !text-lg"}
 						/>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							Our executive coaching service is focused on enhancing leadership
 							skills, strategic thinking, and decision-making capabilities. We
@@ -128,7 +128,7 @@ const Services = () => {
 							text={`Product Development`}
 							className={"font-bold !text-lg"}
 						/>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							From concept to market, our product development service helps
 							businesses create innovative products that resonate with
@@ -141,7 +141,7 @@ const Services = () => {
 							text={`Brand Conception, Design, and Development`}
 							className={"font-bold !text-lg"}
 						/>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							Our branding service covers everything from brand conception to
 							design and development. We help businesses establish a compelling
@@ -155,7 +155,7 @@ const Services = () => {
 							text={`Growth Strategy Development`}
 							className={"font-bold !text-lg"}
 						/>
-						<p className={"!text-lg pl-3 flex items-baseline gap-x-3"}>
+						<p className={"!text-lg !pl-3 flex items-baseline gap-x-3"}>
 							<DotIcon className={"w-[1em]"} color={"black"} />
 							We assist companies in crafting robust growth strategies that are
 							practical and scalable. Our strategic planning focuses on
