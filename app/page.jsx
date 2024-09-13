@@ -36,13 +36,13 @@ export default function Home() {
 						<div className="flex w-full justify-center">
 							<div className="flex gap-x-1 max-lg:!grid ">
 								<Title title="Transform Corporate Innovation" />
-								<div className="px-2 py-4 bg-[#7cdb7c73]">
+								<div className="!px-2 !py-4 bg-[#7cdb7c73]">
 									<Title className={'capitalize'} title=" Today" />
 								</div>
 							</div>
 						</div>
-						<div className="pt-16">
-							<div className="grid-3  mb-20">
+						<div className="!pt-16">
+							<div className="grid-3  !mb-20">
 								<Card2
 									details={"of CEOs agree: innovation is crucial for success"}
 									percent={84}
@@ -78,7 +78,7 @@ export default function Home() {
           ))}
         </div> */}
 				</div>
-				<div className="bg-primary-100  py-20 relative ">
+				<div className="bg-primary-100  !py-20 relative ">
 					<img
 						alt=""
 						src={"/assets/images/shake_2.jpg"}
@@ -99,7 +99,7 @@ export default function Home() {
 						<Testimonial2 />
 
 						{/* <div
-            className="bg-primary-200 my-8 p-6 rounded-2xl "
+            className="bg-primary-200 !my-8 p-6 rounded-2xl "
             >
               <Text
               text={'Company Strategy'}
@@ -186,10 +186,10 @@ export default function Home() {
 					<div className="grid-2 !pt-20 !pb-24  sass-container">
 						<img src="/assets/images/kick_box.png" alt="" />
 						<div>
-							<span className="pb-4 text-primary-200">
+							<span className="!pb-4 text-primary-200">
 								Our FlagShip Product for Exploration
 							</span>
-							<p className="text-[3.5em] font-semibold py-14 ">KICKBOX</p>
+							<p className="text-[3.5em] font-semibold !py-14 ">KICKBOX</p>
 							<Text
 								text="An end-to-end solution for employee engagement,idea management and idea execution. Our KICKBOX concept is based on a proven methodology used by 1000+ companies globally."
 								className={"text-dark"}
@@ -216,7 +216,7 @@ export default function Home() {
 								/>
 							</div>
 							<Link
-								className="bg-primary-300    rounded-md py-2 px-5 text-sm !text-light"
+								className="bg-primary-300    rounded-md !py-2 !px-5 text-sm !text-light"
 								href={"/solutions/kickbox/discover"}
 							>
 								Discover KICKBOX
@@ -225,10 +225,10 @@ export default function Home() {
 					</div>
 					<div className="grid-2 !pt-20 !mb-24  sass-container">
 						<div>
-							<span className="pb-4 text-primary-200">
+							<span className="!pb-4 text-primary-200">
 								Our FlagShip Product for Exploration
 							</span>
-							<p className="text-[3.5em] font-semibold py-14 ">
+							<p className="text-[3.5em] font-semibold !py-14 ">
 								LEGO® SERIOUS PLAY®
 							</p>
 
@@ -258,7 +258,7 @@ export default function Home() {
 								/>
 							</div>
 							<Link
-								className="bg-primary-300 rounded-md py-2 px-5  text-sm  !text-light "
+								className="bg-primary-300 rounded-md !py-2 !px-5  text-sm  !text-light "
 								href={"/solutions/lsp/discover"}
 							>
 								Discover LSP®
@@ -276,7 +276,7 @@ export default function Home() {
 
 				{/* <div className='sass-container'>
         
-        <div className='hero-content grid-3 px-[5em]'>
+        <div className='hero-content grid-3 !px-[5em]'>
           {home.map((item, i) => (
             <div className='box' key={i}>
               <span className='green'>{item.icon}</span> <br />

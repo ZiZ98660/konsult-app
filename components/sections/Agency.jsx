@@ -22,7 +22,7 @@ const Agency = () => {
 						/>
 					</div>
 
-					<div className="content flex">
+					<div className="content flex max-800:!mt-12">
 						<div className="left sass-w-60">
 							<TitleSm title="Our Vision" />
 							<br />
@@ -31,7 +31,7 @@ const Agency = () => {
 								innovation in Sub-Saharan Africa."
 							</p>
 						</div>
-						<div className="right sass-w-40 py-[3em]">
+						<div className="right sass-w-40 !py-[3em] max-800:!pt-0 ">
 							<img
 								src="/assets/images/firm_2.jpg"
 								alt="Img"
@@ -43,7 +43,7 @@ const Agency = () => {
 					</div>
 
 					<div className="content flex max-800:!flex-col-reverse">
-						<div className="left sass-w-40 py-[3em]">
+						<div className="left sass-w-40 !py-[3em] max-800:!pb-[0em]">
 							<img
 								src="/assets/images/firm_black.jpg"
 								alt="Img"
@@ -62,7 +62,7 @@ const Agency = () => {
 							</p>
 						</div>
 					</div>
-					<div className="content flex">
+					<div className="content max-800:!mt-4 flex">
 						<div className="left sass-w-60">
 							<TitleSm title="Our Core Values" />
 							<br />
@@ -105,7 +105,7 @@ const Agency = () => {
 								</span>
 							</div>
 						</div>
-						<div className="right sass-w-40 py-[3em]">
+						<div className="right sass-w-40 !py-[3em]">
 							<img
 								src="/assets/images/brain-storm.jpg"
 								alt="Img"

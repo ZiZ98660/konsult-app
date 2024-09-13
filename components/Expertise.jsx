@@ -6,7 +6,7 @@ import { Card } from "./Card"
 const Expertise = () => {
   return (
     <>
-      <section className='sass-container bg-[#0000002b;] mb-20 py-8 '>
+      <section className='sass-container bg-[#0000002b;] !mb-20 !py-8 '>
         <div className=''>
           <div>
             
