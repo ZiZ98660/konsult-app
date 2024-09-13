@@ -106,7 +106,7 @@ const Nav = () => {
 						className=" hidden max-800:block "
 						onClick={() => setOpen(!open)}
 					>
-						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
+						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line fill="black" size={25} />}
 					</button>
 				</div>
 			</header>
