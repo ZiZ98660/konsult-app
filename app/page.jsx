@@ -183,7 +183,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className=" border border-b-[#3734352b] ">
-					<div className="grid-2 pt-20 pb-24 sass-container">
+					<div className="grid-2 !pt-20 !pb-24 !sass-container">
 						<img src="/assets/images/kick_box.png" alt="" />
 						<div>
 							<span className="pb-4 text-primary-200">
@@ -223,7 +223,7 @@ export default function Home() {
 							</Link>
 						</div>
 					</div>
-					<div className="grid-2 pt-20 mb-24 sass-container">
+					<div className="grid-2 !pt-20 !mb-24 !sass-container">
 						<div>
 							<span className="pb-4 text-primary-200">
 								Our FlagShip Product for Exploration
