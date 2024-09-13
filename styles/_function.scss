@@ -70,8 +70,8 @@
 
 @media screen and (max-width: 500px) {
 	.sass-container {
-		max-width: 100%;
-		padding: 0 20px;
+		max-width: 100% !important;
+		padding: 0 20px !important;
 	}
 
 	.grid-2,

@@ -7,7 +7,7 @@ const DiscoverKickBox = () => {
 	return (
 		<>
 			<section className="agency bg-top">
-				<div className="sass-container pb-28">
+				<div className=" sass-container !pb-28">
 					<div className="heading-title">
 						<TitleSm title="DISCOVER KICKBOX: PROGRAM OUTLINE" />
 					</div>

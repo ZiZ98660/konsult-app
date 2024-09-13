@@ -57,11 +57,11 @@ const Testimonial = () => {
 	};
 	return (
 		<>
-			<section className=" sass-container mt-10 mb-16 ">
-				<div className="text-center pt-2 pb-28 ">
+			<section className=" sass-container !mt-10 mb-16 ">
+				<div className="text-center !pt-2 !pb-28 ">
 					<Title
 						title="Best-in-Class Innovation management experts"
-						className={" text-center pb-10"}
+						className={" text-center !pb-10"}
 					/>
 					<div className="text-dark">
 						Recognised by the G2 Crowd as innovation management software meeting
@@ -75,7 +75,7 @@ const Testimonial = () => {
 						that makes your program unique.
 					</div>
 				</div>
-				<div className="w-full grid-3 pb-20">
+				<div className="w-full grid-3 !pb-20">
 					<img
 						src="/assets/images/first.png"
 						className="w-[7.5em] flex justify-self-center"
@@ -127,7 +127,7 @@ const Testimonial = () => {
 								className={"!text-light "}
 							/>
 						</div>
-						<button className="py-[10px] mt-5 bg-[#00dc93] rounded-lg px-[30px]">
+						<button className="py-[10px] !mt-5 bg-[#00dc93] rounded-lg px-[30px]">
 							Let's talk
 						</button>
 					</div>

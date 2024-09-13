@@ -63,15 +63,15 @@ export const Card3 = ({
 }) => {
 	return (
 		<div className="bg-light rounded-lg cursor-pointer p-6 ">
-			<div className="border-b border-b-[#373435] pb-1 ">
+			<div className="border-b border-b-[#373435] !pb-1 ">
 				<div className="flex gap-x-2">
 					<Title className={"text-xl font-bold"} title={title} />
 					<FaArrowRight />
 				</div>
-				<Text text={sub_title} className={"text-dark pb-2"} />
+				<Text text={sub_title} className={"text-dark !pb-2"} />
 			</div>
 
-			<div className="flex gap-x-3 pt-2 items-start ">
+			<div className="flex gap-x-3 !pt-2 items-start ">
 				<div className="grid">
 					{details.map((d, i) => (
 						<Text

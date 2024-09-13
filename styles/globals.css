@@ -40,7 +40,7 @@ body {
   --color-black-1: #212b38;
 }
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -48,8 +48,8 @@ body {
 
 body {
   font-family: sans-serif;
- 
-} */
+
+}
 
 .logo {
   color: var(--color-white);

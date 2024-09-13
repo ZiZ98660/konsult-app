@@ -5,7 +5,7 @@ import { Title, TitleSm } from "@/components/Title"
 const Blog = () => {
   return (
     <>
-      <section className='agency bg-top pb-16'>
+      <section className='agency bg-top !pb-16'>
         <div className='sass-container'>
           <div className='heading-title'>
             <TitleSm title='BLOG' /> <br />

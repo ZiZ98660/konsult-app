@@ -25,13 +25,13 @@ export default function Home() {
 				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left max-800:!grid max-800:!text-center max-800:!place-items-center max-800:!gap-y-8">
 					<Title
 						title="Become an Innovation Leader - Achieve Tangible Results Through Decentralized Innovation"
-						className={"!text-light w-[50pc]  max-800:w-full  "}
+						className={"!text-light !w-[50pc]  max-800:!w-full  "}
 					/>
 					<img src={"/assets/images/logo.png"} alt="capital growth academy" />
 				</div>
 			</section>
 			<section className="hero-sec ">
-				<div className="sass-container pb-24 ">
+				<div className="sass-container !pb-24 ">
 					<div className="heading-title !text-3xl  !text-dark">
 						<div className="flex w-full justify-center">
 							<div className="flex gap-x-1 max-lg:!grid ">
@@ -66,7 +66,7 @@ export default function Home() {
 						</div>
 					</div>
 					{/* <div
-        className="grid-4 pt-8 pb-28"
+        className="grid-4 !pt-8 !pb-28"
         >
 
                     {home.map((item, i) => (
@@ -88,9 +88,9 @@ export default function Home() {
 					<div className="sass-container relative z-20 ">
 						<Title
 							title="Embrace Innovation as a Discipline"
-							className={"!text-light text-center pb-10"}
+							className={"!text-light text-center !pb-10"}
 						/>
-						<div className="w-full text-center text-light pb-8">
+						<div className="w-full text-center text-light !pb-8">
 							It's time to revolutionize corporate innovation by adopting a
 							comprehensive Innovation Framework with clear KPIs, robust
 							reporting, and continuous monitoring.
@@ -106,14 +106,14 @@ export default function Home() {
               className={'!text-[#b5e9b5ad]'}
               />
              <div
-            className="bg-primary-100 p-6 rounded-2xl mt-4 "
+            className="bg-primary-100 p-6 rounded-2xl !mt-4 "
              >
               <Text
               text={'Innovation Strategy'}
               className={'!text-[#b5e9b5ad]'}
               />
               <div
-            className="bg-primary-300 p-6 rounded-2xl mt-4 border border-[#b6ebb6e0] "
+            className="bg-primary-300 p-6 rounded-2xl !mt-4 border border-[#b6ebb6e0] "
               
               >
                 <div
@@ -172,7 +172,7 @@ export default function Home() {
               </div>
              </div>
             </div> */}
-						<div className="text-center pt-6 ">
+						<div className="text-center !pt-6 ">
 							<Text
 								className={"!text-light"}
 								text={
@@ -183,7 +183,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className=" border border-b-[#3734352b] ">
-					<div className="grid-2 !pt-20 !pb-24 !sass-container">
+					<div className="grid-2 !pt-20 !pb-24  sass-container">
 						<img src="/assets/images/kick_box.png" alt="" />
 						<div>
 							<span className="pb-4 text-primary-200">
@@ -194,7 +194,7 @@ export default function Home() {
 								text="An end-to-end solution for employee engagement,idea management and idea execution. Our KICKBOX concept is based on a proven methodology used by 1000+ companies globally."
 								className={"text-dark"}
 							/>
-							<div className="flex gap-x-2 items-center pt-6">
+							<div className="flex gap-x-2 items-center !pt-6">
 								<DotIcon color={"#373435"} />
 								<Text
 									text="Swisscom created 10 spin-offs"
@@ -208,7 +208,7 @@ export default function Home() {
 									className={"text-dark"}
 								/>
 							</div>
-							<div className="flex gap-x-2 items-center pb-10">
+							<div className="flex gap-x-2 items-center !pb-10">
 								<DotIcon color={"#373435"} />
 								<Text
 									text="A retailer saved 6.5 millions"
@@ -223,7 +223,7 @@ export default function Home() {
 							</Link>
 						</div>
 					</div>
-					<div className="grid-2 !pt-20 !mb-24 !sass-container">
+					<div className="grid-2 !pt-20 !mb-24  sass-container">
 						<div>
 							<span className="pb-4 text-primary-200">
 								Our FlagShip Product for Exploration
@@ -236,7 +236,7 @@ export default function Home() {
 								text="A powerful, experiential process designed to enhance innovation and business performance. LSP offers a refreshing, engaging, and profoundly productive approach to meeting the complex demands of today’s business environment."
 								className={"text-dark"}
 							/>
-							<div className="flex gap-x-2 items-center pt-6">
+							<div className="flex gap-x-2 items-center !pt-6">
 								<DotIcon color={"#373435"} />
 								<Text
 									text="Swisscom created 10 spin-offs"
@@ -250,7 +250,7 @@ export default function Home() {
 									className={"text-dark"}
 								/>
 							</div>
-							<div className="flex gap-x-2 items-center pb-10">
+							<div className="flex gap-x-2 items-center !pb-10">
 								<DotIcon color={"#373435"} />
 								<Text
 									text="A retailer saved 6.5 millions"
