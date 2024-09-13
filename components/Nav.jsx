@@ -96,7 +96,7 @@ const Nav = () => {
 							>
 								Blog
 							</Link>
-							{/* <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
+							{/* <Link href='/contact' class={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link> */}
 						</div>
@@ -106,7 +106,7 @@ const Nav = () => {
 						className=" hidden max-800:block "
 						onClick={() => setOpen(!open)}
 					>
-						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
+						{open ? <AiOutlineClose size={25} /> : <RiMenu4Line fill="black" size={25} />}
 					</button>
 				</div>
 			</header>
