@@ -180,15 +180,21 @@ export const blogdata = [
     id: 1,
     title: "Unleashing Creativity in Business Strategy with LEGO® SERIOUS PLAY®",
     cover: "/assets/images/serious_play.png",
-    catgeory: "STRATEGY",
+    category: "STRATEGY",
     date: "APRIL 21, 2024",
+    desc: [
+      { text: "Explore how LEGO® SERIOUS PLAY® can unlock new perspectives in your business strategy." }
+    ]
   },
   {
     id: 2,
     title: "Spark Innovation with the KICKBOX Methodology",
     cover: "/assets/images/adobe_KB.png",
-    catgeory: "STRATEGY",
+    category: "STRATEGY",
     date: "APRIL 21, 2024",
+    desc: [
+      { text: "Discover the KICKBOX approach to fostering innovation within your organization." }
+    ]
   },
   // {
   //   id: 3,

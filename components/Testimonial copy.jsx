@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
 	const { onClick } = props;
 	return (
 		<div className="slick-arrow">
-			<button classname="!prev" onClick={onClick}>
+			<button className="prev" onClick={onClick}>
 				<RiArrowLeftSLine size={25} />
 			</button>
 		</div>
@@ -68,7 +68,7 @@ const Testimonial2 = () => {
 		<>
 			<section className="testimonial !mb-4 flex justify-center">
 				<div className="container">
-					<div className="heading-title !py-0 !pb-3">
+					<div className="heading-title !py-0 text-[#345030] !pb-3">
 						<TitleSm title="OUR INNOVATION FRAMEWORK" />
 					</div>
 					<span>

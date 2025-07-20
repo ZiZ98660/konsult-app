@@ -25,11 +25,10 @@ export const Card = ({ data, caption, show, path }) => {
 						</Link>
 					)}
 					<div className="flex">
-						<span> {data.catgeory} </span>{" "}
+						<span> {data.category} </span>{" "}
 						{data.date && <span> / {data.date}</span>}
 					</div>
-
-					{show && (
+					{show && data.desc && data.desc.length > 0 && (
 						<ul>
 							{data.desc.map((text, i) => (
 								<li key={i}> - {text.text}</li>
@@ -142,32 +141,31 @@ export const TestimonialCard = ({
 	);
 };
 
-export const FAQCard = ({ question, answer }) => {
-	const [isOpen, setIsOpen] = useState(true);
-	const handleClick = () => {
-		setIsOpen(!isOpen);
-	};
-	useEffect(() => {
-		handleClick();
-	}, []);
+export const FAQCard = ({ question, answer, isOpen, onClick }) => {
 	return (
 		<div
-			className={` p-4 !mb-4 ease-in-out duration-200 bg-[#eef9edf4] rounded-lg ${
+			className={`p-4 !mb-4 ease-in-out duration-200 bg-[#eef9edf4] rounded-lg ${
 				isOpen ? "grid  gap-y-2" : ""
 			}`}
 		>
 			<div
-				onClick={handleClick}
+				onClick={onClick}
 				className="w-full flex justify-between cursor-pointer"
 			>
 				<h3 className="font-bold">{`${question}?`}</h3>
 				{isOpen ? <FaCaretUp /> : <FaCaretDown />}
 			</div>
-			{isOpen && (
-				<div>
-					<Text className={""} text={answer} />
-				</div>
-			)}
+			<div
+				className={`transition-all duration-500 overflow-hidden ${
+					isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
+				}`}
+			>
+				{isOpen && (
+					<div>
+						<Text className={""} text={answer} />
+					</div>
+				)}
+			</div>
 		</div>
 	);
 };

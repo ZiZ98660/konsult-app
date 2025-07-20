@@ -11,8 +11,7 @@ const Faqs = () => {
       <section className='agency bg-top'>
         <div className='sass-container'>
           <div className='heading-title'>
-            <TitleSm title='FAQs' /> <br />
-            <br />
+            <TitleSm title='FAQs' /> 
             
           </div>
           <div className='desc'>

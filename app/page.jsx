@@ -16,10 +16,14 @@ import FAQs from "@/components/FAQs";
 import Link from "next/link";
 import Testimonial2 from "@/components/Testimonial copy";
 import Form from "@/components/sections/Form";
+import Head from 'next/head';
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>Capital Growth Academy</title>
+			</Head>
 			<section className="hero relative opacity-[.88] bg-[#5aad6e]">
 				{/* <img src="/assets/images/firm.jpg" alt="carousel?" className="absolute left-0 top-0 opacity-75 z-[-1]" /> */}
 				<div className="sass-container flex gap-x-8 justify-around items-center h-full  !text-left max-800:!grid max-800:!text-center max-800:!place-items-center max-800:!gap-y-8">

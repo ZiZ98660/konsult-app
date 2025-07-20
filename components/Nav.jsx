@@ -50,7 +50,6 @@ const Nav = () => {
 						className={` flex  ${open ? "openMenu" : "closeMenu"} ${
 							!open ? "max-800:!hidden" : ""
 						}`}
-						onClick={() => setOpen(null)}
 					>
 						<div
 							// className="max-[800px]:hidden"
@@ -62,6 +61,7 @@ const Nav = () => {
 							<Link
 								href="/about-us"
 								className={activeLink == "/about-us" ? "activeLink" : "none"}
+								onClick={() => setOpen(false)}
 							>
 								About us
 							</Link>
@@ -75,7 +75,7 @@ const Nav = () => {
 							>
 								Solutions
 								<FaCaretDown />
-								<DropDown isOpen={isDropdownOpen} onClose={closeDropDown} />
+								<DropDown isOpen={isDropdownOpen} onClose={closeDropDown} closeNav={() => setOpen(false)} />
 							</div>
 
 							{/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
@@ -84,6 +84,7 @@ const Nav = () => {
 							<Link
 								href="/services"
 								className={activeLink == "/services" ? "activeLink" : "none"}
+								onClick={() => setOpen(false)}
 							>
 								Services
 							</Link>
@@ -93,6 +94,7 @@ const Nav = () => {
 							<Link
 								href="/blogs"
 								className={activeLink == "/blogs" ? "activeLink" : "none"}
+								onClick={() => setOpen(false)}
 							>
 								Blog
 							</Link>
@@ -107,7 +109,7 @@ const Nav = () => {
 						onClick={() => setOpen(!open)}
 					>
 						{open ? <AiOutlineClose fill="black" size={25} /> : <RiMenu4Line fill="black" size={25} />}
-					</button>
+					</button>	
 				</div>
 			</header>
 		</>

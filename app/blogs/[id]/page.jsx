@@ -7,33 +7,17 @@ import Image from "next/image";
 import React, { useEffect } from "react"
 import Text from "@/components/Text"
 import { DotIcon } from "@/public/assets/icons/icons"
+import { useParams } from 'next/navigation';
 // import { useRouter } from "next/router"
 
 
 const SinglePost = () => {
 
 
-  function useIdFromUrl() {
-    if (typeof window !== 'undefined') {
-      const parsedUrl = new URL(window.location.href);
-      const pathname = parsedUrl.pathname; // Get the pathname
-      const parts = pathname.split('/'); // Split the pathname into parts
-      const id = parts[parts.length - 1]; // The id is the last part
-      return id ? parseInt(id) : null; // Parse the id to integer if it exists
-    }
-  }
+  const params = useParams();
+  const id = parseInt(params.id, 10);
+  const post = blogdata.find((post) => post.id === id);
   
-  const id = useIdFromUrl();
-  let post; // Define post here
-  if (id !== null) { // Check if id is not null
-    post = blogdata.find((post) => post.id === id); // Assign the found post to the variable
-  } else {
-    console.log('ID not found in URL');
-  }
-  useEffect(() => {
-    console.log(id);  
-  })
- 
   return (
     <>
       <Head>
@@ -42,11 +26,11 @@ const SinglePost = () => {
       <section className='post-details bg-top'>
         <div className='sass-container'>
           <div className='heading-title'>
-            <TitleSm title={`${post?.catgeory||'Category'} / ${post?.date||'---'}`} /> <br />
+            <TitleSm title={`${post?.category||'Category'} / ${post?.date||'---'}`} /> <br />
             <br />
             <Title title={post?.title} className='title-bg' />
             <div className='img flex gap-x-4 !py-5'>
-              <img src={post?.cover} alt={post?.title} width= {50} height= {50} className='rounded-[50%]' />
+              <img src={post?.cover} alt={post?.title} width={50} height={50} className='rounded-[50%]' />
               <div>
                 By Author
               </div>

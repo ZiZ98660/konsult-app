@@ -27,7 +27,7 @@ function SamplePrevArrow(props) {
 	const { onClick } = props;
 	return (
 		<div className="slick-arrow">
-			<button classname="!prev !bg-green-300" onClick={onClick}>
+			<button className="!prev !bg-green-300" onClick={onClick}>
 				<RiArrowLeftSLine size={25} />
 			</button>
 		</div>

@@ -1,11 +1,17 @@
+'use client'
 import Image from "next/image";
 import { Title } from "./Title";
 import { brand, faq_data } from "@/public/assets/data/dummydata";
 import Text from "./Text";
 import { FAQCard } from "./Card";
 import Link from "next/link";
+import { useState } from "react";
 
 const FAQs = () => {
+	const [openIndex, setOpenIndex] = useState(null);
+	const handleToggle = (idx) => {
+		setOpenIndex(openIndex === idx ? null : idx);
+	};
 	return (
 		<>
 			<section className="sass-container !pt-4 !pb-16 ">
@@ -38,7 +44,13 @@ const FAQs = () => {
 					/>
 				</div>
 				{faq_data.map((fd, i) => (
-					<FAQCard key={i} question={fd.question} answer={fd.answer} />
+					<FAQCard
+						key={i}
+						question={fd.question}
+						answer={fd.answer}
+						isOpen={openIndex === i}
+						onClick={() => handleToggle(i)}
+					/>
 				))}
 			</section>
 			{/* <div className=''>
